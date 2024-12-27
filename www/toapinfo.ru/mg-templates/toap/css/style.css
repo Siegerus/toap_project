@@ -344,6 +344,7 @@ h1{
   min-height: 290px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
   gap: 6px;
   justify-content: space-between;
   justify-items: center;
@@ -965,7 +966,6 @@ grid-template-columns: repeat(4, 1fr);
   width: 30%;
 }
 .mc__our-team_cont-card {
-    display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -987,7 +987,7 @@ grid-template-columns: repeat(4, 1fr);
 }
 .footer__cont-contacts {
  
-    padding-top: 32px;
+  padding-top: 32px;
   display: grid;
   grid-template-columns: 34% 1fr 1fr 1fr;
   grid-gap: 20px;
