@@ -1,0 +1,532 @@
+.widget-table-body .widget-table-body .widget-table-action,
+.widget-table-body .widget-table-body {
+    padding: 0;
+}
+
+.miniature img {
+    width: 100px;
+    height: 60px;
+}
+
+.wrapper-buyclick-setting {
+    width: 100%
+}
+
+.base-settings h3 {
+    margin: 0 0 10px 0;
+}
+
+.base-settings .base-setting-save {
+    margin-bottom: 10px;
+}
+
+.buyclick-editor h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+.buyclick-editor .list-option {
+    background: #fff;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.buyclick-editor .list-option li select {
+    width: 292px;
+}
+
+.buyclick-editor .list-option li .save-button span {
+    width: auto;
+}
+
+.buyclick-editor .list-option li {
+    font-size: 0;
+    overflow: hidden;
+}
+
+.buyclick-editor .list-option li span {
+    margin: 0 5px 0 0;
+    font-size: 14px;
+}
+
+.buyclick-editor .list-option li .textarea-text {
+    vertical-align: top;
+}
+
+.buyclick-editor .list-option li textarea {
+    resize: none;
+}
+
+.base-settings .list-option li span,
+.custom-text {
+    display: inline-block;
+    width: 200px;
+}
+
+.base-settings .list-option li {
+    margin: 0 0 10px 0;
+}
+
+.base-settings .list-option li input,
+.base-settings .list-option li select {
+    margin: 0;
+}
+
+.base-settings .list-option textarea {
+    display: inline-block;
+    width: 292px;
+}
+
+.wrapper-modal-mg-buy-click .close-mg-buy-button a {
+
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: url(../images/close.png) no-repeat;
+    right: 10px;
+    top: 10px;
+}
+
+.base-settings {
+    border-top: 0;
+}
+
+
+.wrapper-modal-mg-buy-click {
+    max-width: 650px;
+    background: #F9F9F9;
+    border: 1px solid #ccc;
+    display: none;
+    padding: 0 !important;
+}
+
+.mg-price-buy-click .bc-price {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.header-modal-mg-buy-click {
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: #fff;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.content-modal-mg-buy-click {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.content-modal-mg-buy-click .title {
+    font-size: 18px;
+}
+
+.wrapper-modal-mg-buy-click * {
+    color: #000;
+}
+
+.wrapper-modal-mg-buy-click .product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper-modal-mg-buy-click .mg-product-info {
+    width: 275px;
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.mg-product-img {
+    background: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+
+.wrapper-modal-mg-buy-click .header-modal-mg-buy-click .title-modal-mg-buy-click {
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+}
+
+.wrapper-modal-mg-buy-click .mg-order-buy-click {
+    overflow: hidden;
+    padding: 3px;
+}
+
+.wrapper-modal-mg-buy-click .mg-product-info h3 {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.modal-mg-order-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.modal-mg-order-list li h3 {
+    margin: 0 0 10px 0;
+    color: #0681C7;
+    font-size: 18px;
+}
+
+.modal-mg-order-list li textarea,
+.modal-mg-order-list li input[type="password"],
+.modal-mg-order-list li input[type="text"] {
+    border-radius: 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.modal-mg-order-list li textarea:focus,
+.modal-mg-order-list li input[type="password"]:focus,
+.modal-mg-order-list li input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0px 10px #d5f2ff;
+}
+
+.modal-mg-order-list li textarea {
+    resize: none;
+}
+
+.cap-left span,
+.modal-mg-order-list li > span {
+    color: #000;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.modal-mg-order-list li {
+    margin: 0 0 10px 0;
+}
+
+.mg-buy-click-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #D3D3D3;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #fcfcfc;
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e5e5e5));
+    background: -webkit-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%);
+    background: -o-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%);
+    background: -ms-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%);
+    background: linear-gradient(to bottom, #fcfcfc 0%, #e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e5e5e5', GradientType=0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.mg-buy-click-button:hover {
+    background: #E6E6E6;
+}
+
+.mg-buy-click-button:active {
+    border: 1px solid #B8B8B8;
+    box-shadow: inset 0 0 9px rgba(0, 0, 0, 0.3);
+}
+
+.mg-action-buttons {
+    text-align: right;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+    background: #fff;
+    border-top: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mg-action-buttons .mg-plugin-btn {
+    margin: 0 0 0 10px;
+}
+
+.mg-price-buy-click .bk-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.mg-price-buy-click {
+    clear: both;
+    margin: 10px 0 0 0;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mg-price-buy-click span {
+    font-size: 14px;
+    font-weight: normal;
+    color:  #0081C1;
+}
+
+.mg-price-buy-click .nowrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mg-price-buy-click .nowrap span {
+    font-size: 16px;
+}
+
+.wrapper-modal-mg-buy-click .loading-send-order {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    padding: 30px;
+    padding: 30px;
+    background: #D5F2FF;
+    margin: 15px;
+    border-radius: 8px;
+    color: #0081C1;
+}
+
+.wrapper-modal-mg-buy-click .error {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    color: #c2646d;
+    background: #fdd6da;
+    border: 1px solid #eca8a8;
+}
+
+.wrapper-modal-mg-buy-click span.red-star {
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.mg-action-buttons .close-mg-buy-button {
+    cursor: pointer;
+    display: inline-block;
+    color: #1391C7;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+    border: none;
+    border-bottom: 1px dashed #1391C7;
+    padding: 0;
+    background: none;
+    outline: none;
+}
+
+.mg-action-buttons .close-mg-buy-button:hover {
+    border-bottom: 1px dashed transparent;
+}
+
+.mg-send-order-click-button {
+    background:var(--main-btn-text-color);
+    padding: 7px 25px;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.mg-send-order-click-button:hover {
+    cursor: pointer;
+    background:#006394;
+}
+
+
+.mg-send-order-click-button:active {
+    cursor: pointer !important;
+    background:#006394;
+}
+
+.wrapper-mg-buy-click {
+    width: 100%;
+    max-width: 460px;
+}
+
+body #overlay-buy-click {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    z-index: 111;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100% !important;
+    overflow: auto;
+}
+
+.wrapper-modal-mg-buy-click .variant {
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.titles-modal-mg-buy-click {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.titles-modal-mg-buy-click .title {
+    font-size: 18px;
+}
+
+@media all and (max-width: 700px) {
+    .content-modal-mg-buy-click .mg-product-info {
+        display: none !important;
+    }
+
+    .mg-action-buttons {
+        height: 150px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .wrapper-modal-mg-buy-click .mg-product-info {
+        float: none;
+        margin: 0 auto 15px;
+    }
+}
+
+.st-error {
+    font-size: 11px;
+    color: rgb(169, 68, 66);
+}
+
+.mg-order-buy-click .cap-left span {
+    color: rgb(102, 102, 102);
+}
+
+.mg-order-buy-click .agreement-container span {
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.wrapper-modal-mg-buy-click .mg-order-buy-click {
+    width: auto;
+    min-width: 280px !important;
+}
+
+.buyClick_agreement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.buyClick_agreement .agreement-container {
+    display: flex;
+    align-items: center;
+}
+
+.agreement-data-checkbox-mg-send-order-click-button {
+    margin-right: 5px;
+}
+
+.modal-mg-order-list li input[type="text"],
+.modal-mg-order-list li textarea {
+    min-width: 274px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.body_locked {
+    overflow: hidden;
+}
+
+.stop-scrolling {
+    overflow: hidden;
+}
+.mg-send-order-click-button span {
+    margin: 0 auto;
+    color: #fff;
+}
+
+.mg-product-info .title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.wrapper-modal-mg-buy-click  .cap-left {
+    margin-top: 15px;
+}
+
+.wrapper-modal-mg-buy-click  .cap-left span {
+    margin-bottom: 5px;
+}
+
+.wrapper-modal-mg-buy-click  .cap-left img {
+    margin-bottom: 15px;
+    border: 1px solid #ddd !important;
+}
+
+.buyClick_agreement .agreement-data-denied {
+    line-height: 1;
+}
+
+.agreement__label_error span,
+.agreement__label_error button {
+    color: red !important;
+}
+
+.buyClick_agreement button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+}
+.wrapper-modal-mg-buy-click .fancybox-close-small {
+    z-index: auto;
+}
+
+.loading-send-order.error{
+    margin: 20px;
+    background: rgb(247 185 185);
+    color: rgb(159 41 41);
+}
+.loading-send-order.error p{
+    background: rgb(247 185 185);
+    color: rgb(159 41 41);
+   }

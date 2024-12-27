@@ -1,0 +1,6 @@
+#!/bin/sh
+PHP_INI_SCAN_DIR='/var/www/u2804368/data/php-bin-php74/toapinfo.ru:'
+PHPRC='/var/www/u2804368/data/php-bin-php74'
+export PHP_INI_SCAN_DIR
+export PHPRC
+exec /opt/php/7.4/bin/php-cgi

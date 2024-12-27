@@ -1,0 +1,111 @@
+.news-block {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 16px;
+}
+.news-block * {
+    box-sizing: border-box;
+}
+
+.news-block .news-item .news-details .news-text {
+    font-size: 16px;
+    line-height: 1.2;
+    display: block;
+    padding: 5px 5px 8px;
+    border: 1px solid #dadada;
+    border-top: 0;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #333;
+    width: 100%;
+
+}
+.news-block .news-item .news-details .news-text:hover {
+    text-decoration: underline;
+}
+.news-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+}
+
+.news-block .news-item .news-img {
+    float: none;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    display: block;
+    margin: 0;
+}
+
+.news-block .news-item .news-img:hover img{
+    transform: scale(1.05);
+}
+
+.news-block .news-item img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 145px;
+    transition: .4s;
+    margin: auto;
+    display: block;
+}
+
+.main-news-item {
+    padding: 26px 16px 16px;
+    border-radius: 2px;
+    background: #fff;
+    position: relative;
+}
+.news-details a {
+    line-height: 1.2;
+    display: block;
+}
+.news-date {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 1;
+    background: rgba(35, 35, 35, 0.35);
+    color: #fff;
+    border-top-left-radius: 2px;
+}
+.news-header {
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.news-header > h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.news-footer {
+    margin: 5px -10px -16px -10px;
+    text-align: center;
+    border-top: 1px solid #dadada;
+    background: #f7f7f7;
+    padding: 3px;
+}
+.news-footer .show-all {
+    color: #333;
+}

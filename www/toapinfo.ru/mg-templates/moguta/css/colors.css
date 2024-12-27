@@ -1,0 +1,16 @@
+:root {
+
+    
+  
+    --main-bc-collor: #fff;
+    --primary-color: #b963ef;
+    --primary-colorBG: #4a00789c;
+    --primary-color-activ: #9e46d4;
+    --main-font-text: "Arial", sans-serif;
+    --main-font-title: "Arial", sans-serif;
+    --block-indent: 64px;
+    --main-btn-text-color: #b963ef;
+    --main-btn-text-color-activ: #9e46d4;
+    --border-radius: 8px;
+    --main-font: "Cormorant Garamond", serif;
+}

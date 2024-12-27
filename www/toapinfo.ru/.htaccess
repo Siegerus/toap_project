@@ -1,0 +1,36 @@
+AddType image/x-icon .ico
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+Options -Indexes
+RewriteEngine on
+
+#RewriteBase /
+#запрос к изображению напрямую без запуска движка 
+RewriteCond %{REQUEST_URI} \.(png|gif|ico|swf|jpe?g|js|css|ttf|svg|eot|woff|yml|xml|zip|txt|doc|map)$
+RewriteRule ^(.*) $1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_URI} \.(ini|ph.*)$
+RewriteRule ^(.*) index.php [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L,QSA]
+Redirect 301 /kurs-2 https://toapinfo.ru/basic_course
+Redirect 301 /kurs-1 https://toapinfo.ru/basic_course
+Redirect 301 /apiubk https://toapinfo.ru/basic_course
+Redirect 301 /tavrim https://toapinfo.ru/tauride_mysteries
+Redirect 301 /tavricheskie-misterii https://toapinfo.ru/tauride_mysteries
+
+Redirect 301 /kinoklub https://toapinfo.ru/film_club
+Redirect 301 /proekt-kinoklub https://toapinfo.ru/film_club
+
+Redirect 301 /supervizii https://toapinfo.ru/supervision_course
+Redirect 301 /kurs_supervizii https://toapinfo.ru/supervision_course
+
+Redirect 301 /seminars-product https://toapinfo.ru/seminars
+Redirect 301 /seminary https://toapinfo.ru/seminars
+Redirect 301 /personal https://toapinfo.ru/mg-admin
+
+
+</IfModule>
+<IfModule mod_php5.c> 
+php_flag magic_quotes_gpc Off
+</IfModule>
