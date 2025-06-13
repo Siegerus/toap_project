@@ -121,3 +121,48 @@ $('input, textarea').each(function () {
         });
     }
 });
+
+
+function toTest(text) {
+    if(!document.querySelector(".test-section")) return;
+
+    let button = document.querySelector(".card-item__button");
+    let block = document.querySelector(".test-section__item");
+    let interval;
+    let timeout;
+    button.addEventListener("click", (e) => {
+        let target = e.target.closest(".card-item__button");
+        if(!target) return;
+
+        alert(text);
+
+        block.style.position = "relative";
+        block.style.left = 100 + "%";
+        block.style.transform = "translate(-50%)";
+
+        function returnPosition(item) {
+            item.style.position = "";
+            block.style.left = "";
+            block.style.transform = "translate(0)";
+        }
+
+        let delay = setTimeout(()=> returnPosition(block), 1000);
+
+        function toBlink() {
+            if(interval) clearInterval(interval);
+            if(timeout) clearInterval(timeout);
+
+            interval = setInterval(() => {
+                if(block.style.backgroundColor == "grey") block.style.backgroundColor = "white";
+                else block.style.backgroundColor = "grey";
+            }, 400);
+
+            timeout = setTimeout(() => {
+                clearInterval(interval);
+                block.style.backgroundColor = "grey";
+            }, 5000);
+        }
+        toBlink();
+    });
+}
+window.addEventListener("DOMContentLoaded", () => toTest("Hellow! Meow..."));

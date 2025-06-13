@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="footer__user-agr">
-          <p>© 2024 ТОАПП</p>
+          <p>© 2025 ТОАПП</p>
           <p>
             <a href="<?php echo SITE?>/user_agreement" targer="_blank">Пользовательское соглашение</a>
           </p>
