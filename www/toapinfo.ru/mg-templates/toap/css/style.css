@@ -1054,7 +1054,6 @@ h1+.mc__about-project_cont {
 .mc__our-team_cont-card p,
 .mc__our-team_cont-card span {
 	position: sticky;
-
 	font-family: 'SF Display' !important;
 	z-index: 20;
 	border-radius: 4px;
@@ -1084,6 +1083,8 @@ h1+.mc__about-project_cont {
 .mc__our-team_cont-card img {
 	width: 50%;
 	align-self: flex-end;
+	display: block;
+    margin-top: 12px;
 }
 
 @media (max-width: 760px) {
