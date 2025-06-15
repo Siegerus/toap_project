@@ -1033,7 +1033,7 @@ h1+.mc__about-project_cont {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding-bottom: var(--block-indent);
-	gap: 20px;
+	row-gap: 30px;
 }
 
 .mc__our-team_cont-card {
