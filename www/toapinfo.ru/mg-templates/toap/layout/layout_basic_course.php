@@ -16,57 +16,53 @@ mgAddMeta('components/cart/btn/add/add.js');
         
         </section>
         <section class="mc__assoc-plan">
-          <div class="assoc-plan__blockA">
-            <a href="#about">
+          <a href="#about" class="assoc-plan__blockA">
             <div class="mc__assoc-plan_title">О курсе</div>
-            <svg
-              class="icon"
-              width="16"
-              viewBox="0 0 16 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
-              />
-            </svg>
+              <svg
+                class="icon"
+                width="16"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
+                />
+              </svg>
             <img class="foto" src="<?php echo SITE?>/uploads/ateste.png" alt="Базовый курс аналитической психологии" />
           </a>
-          </div>
-          <div class="assoc-plan__blockA">
-            <a href="#audience">
+          <a href="#audience" class="assoc-plan__blockA">
             <div class="mc__assoc-plan_title">Кому подойдет курс</div>
-            <svg
-              class="icon"
-              width="16"
-              
-              viewBox="0 0 16 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
-              />
-            </svg>
+              <svg
+                class="icon"
+                width="16"
+                
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
+                />
+              </svg>
             <img class="foto" src="<?php echo SITE?>/uploads/kompod.png" alt="Кому подойдет курс юнгианского анализа" /></a>
-          </div>
-          <div class="assoc-plan__blockA">
-            <a href="#rules">
+          </a>
+          <a href="#rules" class="assoc-plan__blockA">
             <div class="mc__assoc-plan_title">Условия</div>
-            <svg
-              class="icon"
-              width="16"
-              
-              viewBox="0 0 16 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
-              />
-            </svg>
+              <svg
+                class="icon"
+                width="16"
+                
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
+                />
+              </svg>
             <img class="foto" src="<?php echo SITE?>/uploads/yslov.png" alt="Условия обучения базового курса" /></a>
-          </div>
+          </a>
           <div class="blockB">
             <div class="assoc-plan__blockB">
             <a href="#programs">
