@@ -422,6 +422,19 @@ h1 {
 	width: 80%;
 }
 
+.assoc-plan__blockB a,
+.assoc-plan__blockA a {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 290px;
+    height: 100%;
+}
+
+.blockB .assoc-plan__blockB a {
+    min-height: 120px;
+}
+
 .assoc-plan__blockA .icon,
 .assoc-plan__blockB .icon {
 	position: absolute;
@@ -439,13 +452,11 @@ h1 {
 
 .assoc-plan__blockA .foto,
 .assoc-plan__blockB .foto {
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
+    align-self: flex-end;
 }
 
 .mc__assoc-plan .assoc-plan__blockA:nth-of-type(2) {
-	max-height: 220px;
+	/* max-height: 220px; */
 }
 
 .mc__assoc-plan div:nth-of-type(4) {
@@ -1336,11 +1347,11 @@ a.main-btn,
 
 }
 
-.assoc-plan__blockB a,
+/* .assoc-plan__blockB a,
 .assoc-plan__blockA a {
 	display: block;
 	height: 100%;
-}
+} */
 
 .mc__assoc-plan_title {
 	position: relative;
