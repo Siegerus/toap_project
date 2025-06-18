@@ -402,6 +402,10 @@ h1 {
 	display: block;
 }
 
+.blockB .assoc-plan__blockB {
+	min-height: 120px;
+}
+
 .assoc-plan__blockA:hover,
 .assoc-plan__blockB:hover {
 	background-color: var(--primary-color);
