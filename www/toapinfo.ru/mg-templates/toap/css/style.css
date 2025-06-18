@@ -1390,7 +1390,7 @@ a.main-btn,
 
 	.l-base-kurs .assoc-plan__blockA,
 	.l-base-kurs .assoc-plan__blockB {
-		max-height: 120px !important;
+		min-height: 120px !important;
 	}
 
 	.l-base-kurs .assoc-plan__blockA .foto {
