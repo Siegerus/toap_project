@@ -67,7 +67,7 @@ mgAddMeta('components/cart/btn/add/add.js');
             </svg>
             <img class="foto" src="<?php echo SITE?>/uploads/yslov.png" alt="Условия обучения базового курса" /></a>
           </div>
-          <div class="">
+          <div class="blockB">
             <div class="assoc-plan__blockB">
             <a href="#programs">
               <div class="mc__assoc-plan_title">Программы обучения</div>
