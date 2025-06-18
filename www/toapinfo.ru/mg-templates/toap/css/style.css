@@ -455,6 +455,12 @@ h1 {
     align-self: flex-end;
 }
 
+.assoc-plan__blockA .foto img,
+.assoc-plan__blockB .foto img {
+    max-width: 100%;
+	max-height: 100%;
+}
+
 .mc__assoc-plan .assoc-plan__blockA:nth-of-type(2) {
 	/* max-height: 220px; */
 }
@@ -1401,6 +1407,11 @@ a.main-btn,
 
 	.l-base-kurs .assoc-plan__blockA,
 	.l-base-kurs .assoc-plan__blockB {
+		min-height: 120px !important;
+	}
+
+	.l-base-kurs .assoc-plan__blockA a,
+	.l-base-kurs .assoc-plan__blockB a {
 		min-height: 120px !important;
 	}
 
