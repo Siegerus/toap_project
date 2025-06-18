@@ -388,8 +388,8 @@ h1 {
 .assoc-plan__blockA,
 .assoc-plan__blockB {
 	position: relative;
-	height: 290px;
-
+	/* height: 290px; */
+    min-height: 290px;
 	line-height: 1.2;
 	color: #0C0C0D;
 	width: 100%;
@@ -457,6 +457,7 @@ h1 {
 
 .assoc-plan__blockB {
 	max-height: 120px;
+	
 }
 
 @media (max-width: 900px) {
