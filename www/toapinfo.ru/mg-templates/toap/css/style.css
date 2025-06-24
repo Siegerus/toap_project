@@ -1027,6 +1027,10 @@ h1+.mc__about-project_cont {
 	transition: background-color 0.4s ease;
 }
 
+.mc-n-c__card p, .mc-n-c__card span {
+	font-size: 20px;
+}
+
 .mc-n-c__card:hover {
 	background-color: var(--primary-color);
 	color: #fff;
