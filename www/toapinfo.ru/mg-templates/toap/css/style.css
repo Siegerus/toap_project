@@ -156,14 +156,14 @@ main {
 }
 
 h1 {
-	font-size: 38px;
+	font-size: 36px;
 	margin: 0 auto;
 	max-width: 1000px;
 }
 
 .sect-title {
 	padding-top: var(--block-indent);
-	font-size: 38px;
+	font-size: 36px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 	text-align: center;
@@ -284,7 +284,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 38px;
+	font-size: 36px;
 	text-align: center;
 	font-family: var(--main-font) !important;
 	font-weight: 400 !important;
@@ -539,7 +539,7 @@ h1 {
 }
 
 .mc__about-cont p {
-	font-size: 38px;
+	font-size: 36px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
@@ -846,7 +846,7 @@ h1+.mc__about-project_cont {
 .mc__Latest-announc h2 {
 	padding-top: var(--block-indent);
 	text-align: center;
-	font-size: 38px;
+	font-size: 36px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
@@ -990,7 +990,7 @@ h1+.mc__about-project_cont {
 .mc__news h1 {
 	padding-top: var(--block-indent);
 	text-align: center;
-	font-size: 38px;
+	font-size: 36px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
