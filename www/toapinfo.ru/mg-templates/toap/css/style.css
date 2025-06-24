@@ -1281,6 +1281,10 @@ h1+.mc__about-project_cont {
 	fill: currentColor;
 }
 
+.icon .icon--arrow-right {
+	right: -15px;
+}
+
 .l-body a.mg-buy-click-button.mg-plugin-btn:hover {
 	opacity: 1;
 	background: unset;
