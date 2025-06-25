@@ -156,14 +156,14 @@ main {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 34px;
 	margin: 0 auto;
 	max-width: 1000px;
 }
 
 .sect-title {
 	padding-top: var(--block-indent);
-	font-size: 36px;
+	font-size: 34px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 	text-align: center;
@@ -284,7 +284,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 36px;
+	font-size: 34px;
 	text-align: center;
 	font-family: var(--main-font) !important;
 	font-weight: 400 !important;
@@ -388,7 +388,7 @@ h1 {
 .assoc-plan__blockA,
 .assoc-plan__blockB {
 	position: relative;
-    min-height: 290px;
+    min-height: 326px;
 	line-height: 1.2;
 	color: #0C0C0D;
 	width: 100%;
@@ -401,7 +401,6 @@ h1 {
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 290px;
 }
 
 .blockB .assoc-plan__blockB {
@@ -415,9 +414,10 @@ h1 {
 }
 
 .blockB {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	min-height: 326px;
 	gap: 6px;
 }
 
@@ -425,7 +425,7 @@ h1 {
 	width: 80%;
 }
 
-/* .assoc-plan__blockB a,
+.assoc-plan__blockB a,
 .assoc-plan__blockA a {
 	display: flex;
     flex-direction: column;
@@ -436,7 +436,7 @@ h1 {
 
 .blockB .assoc-plan__blockB a {
     min-height: 120px;
-} */
+}
 
 .assoc-plan__blockA .icon,
 .assoc-plan__blockB .icon {
@@ -458,11 +458,10 @@ h1 {
     align-self: flex-end;
 }
 
-.assoc-plan__blockA .foto,
-.assoc-plan__blockB .foto {
+.assoc-plan__blockA .foto img,
+.assoc-plan__blockB .foto img {
     max-width: 100%;
 	max-height: 100%;
-	object-fit: cover;
 }
 
 .mc__assoc-plan .assoc-plan__blockA:nth-of-type(2) {
@@ -539,7 +538,7 @@ h1 {
 }
 
 .mc__about-cont p {
-	font-size: 36px;
+	font-size: 34px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
@@ -846,7 +845,7 @@ h1+.mc__about-project_cont {
 .mc__Latest-announc h2 {
 	padding-top: var(--block-indent);
 	text-align: center;
-	font-size: 36px;
+	font-size: 34px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
@@ -990,7 +989,7 @@ h1+.mc__about-project_cont {
 .mc__news h1 {
 	padding-top: var(--block-indent);
 	text-align: center;
-	font-size: 36px;
+	font-size: 34px;
 	font-family: var(--main-font);
 	text-transform: uppercase;
 }
@@ -1025,10 +1024,6 @@ h1+.mc__about-project_cont {
 	justify-content: space-between;
 	font-weight: bold;
 	transition: background-color 0.4s ease;
-}
-
-.mc-n-c__card p, .mc-n-c__card span {
-	font-size: 20px;
 }
 
 .mc-n-c__card:hover {
@@ -1281,12 +1276,9 @@ h1+.mc__about-project_cont {
 	height: 100%;
 	width: 10px;
 	position: relative;
+	left: -10px;
 	color: inherit;
 	fill: currentColor;
-}
-
-.c-menu__icon .icon--arrow-right {
-	right: -15px;
 }
 
 .l-body a.mg-buy-click-button.mg-plugin-btn:hover {
@@ -1364,6 +1356,12 @@ a.main-btn,
 
 }
 
+/* .assoc-plan__blockB a,
+.assoc-plan__blockA a {
+	display: block;
+	height: 100%;
+} */
+
 .mc__assoc-plan_title {
 	position: relative;
 	z-index: 100;
@@ -1415,10 +1413,10 @@ a.main-btn,
 		min-height: 120px !important;
 	}
 
-	/* .l-base-kurs .assoc-plan__blockA a,
+	.l-base-kurs .assoc-plan__blockA a,
 	.l-base-kurs .assoc-plan__blockB a {
 		min-height: 120px !important;
-	} */
+	}
 
 	.l-base-kurs .assoc-plan__blockA .foto {
 		max-width: 50%;
@@ -1638,4 +1636,3 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
-

@@ -64,25 +64,23 @@ mgAddMeta('components/cart/btn/add/add.js');
             <img class="foto" src="<?php echo SITE?>/uploads/yslov.png" alt="Условия обучения базового курса" /></a>
           </a>
           <div class="blockB">
-            <div class="assoc-plan__blockB">
-            <a href="#programs">
+            <a class="assoc-plan__blockB" href="#programs">
               <div class="mc__assoc-plan_title">Программы обучения</div>
-              <svg
-                class="icon"
-                width="16"
-                
-                viewBox="0 0 16 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
-                />
-              </svg>
-              <img class="foto" src="<?php echo SITE?>/uploads/progobych.png" alt="Программа обучения аналитической психологии" /></a>
-            </div>
-            <div class="assoc-plan__blockB">
-              <a href="#price">
+                <svg
+                  class="icon"
+                  width="16"
+                  
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.5 6H12.086L7.586 1.5L9 0.0859985L15.914 7L9 13.914L7.586 12.5L12.086 8H0.5V6Z"
+                  />
+                </svg>
+                <img class="foto" src="<?php echo SITE?>/uploads/progobych.png" alt="Программа обучения аналитической психологии" /></a>
+            </a>
+            <a class="assoc-plan__blockB" href="#price">
               <div class="mc__assoc-plan_title">Цены</div>
               <svg
                 class="icon"
@@ -97,7 +95,7 @@ mgAddMeta('components/cart/btn/add/add.js');
                 />
               </svg>
               <img class="foto" src="<?php echo SITE?>/uploads/ceni.png" alt="Цены обучения аналитической психологии" /></a>
-            </div>
+            </a>
           </div>
         </section>
         <section class="mc__about-course " id="about">
