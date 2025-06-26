@@ -377,7 +377,7 @@ h1 {
 	gap: 6px;
 	justify-content: space-between;
 	justify-items: center;
-	align-items: end;
+	/* align-items: end; */
 	margin-bottom: 32px;
 }
 
@@ -440,6 +440,11 @@ h1 {
 
 .blockB .assoc-plan__blockB a {
     min-height: 120px;
+}
+
+.assoc-plan__blockB p,
+.assoc-plan__blockA p {
+	margin-bottom: 15px;
 }
 
 .assoc-plan__blockA .icon,
@@ -515,7 +520,9 @@ h1 {
 	}
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 650px) {
 	.mc__assoc-plan {
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -1321,8 +1328,6 @@ h1+.mc__about-project_cont {
 	max-width: 80%;
 }
 
-
-
 .mc-t-p__cont-card span {
 	color: #797979;
 	font-size: 13px;
@@ -1355,7 +1360,7 @@ a.main-btn,
 
 .l-body__catalog .assoc-plan__blockA.menu-cats,
 .l-body__catalog .assoc-plan__blockB.menu-cats {
-	height: 340px;
+	min-height: 340px;
 	width: 100%;
 	max-width: 100%;
 }
@@ -1392,6 +1397,11 @@ a.main-btn,
 
 	.header__cont-nav ul ul {
 		display: none;
+	}
+
+	.l-body__catalog .assoc-plan__blockA.menu-cats,
+	.l-body__catalog .assoc-plan__blockB.menu-cats {
+		min-height: 290px;
 	}
 }
 
