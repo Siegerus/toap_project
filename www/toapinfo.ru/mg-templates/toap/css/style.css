@@ -1336,14 +1336,13 @@ h1+.mc__about-project_cont {
 a.main-btn,
 .main-btn {
 	background-color: var(--main-btn-text-color);
-	padding: 16px 24px;
+	padding: 16px 22px;
 	border: none;
 	border-radius: var(--border-radius);
 	color: #fff;
-
 	max-width: 220px;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	text-transform: none;
 	transition: background-color 0.3s;
