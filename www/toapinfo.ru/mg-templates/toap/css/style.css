@@ -403,10 +403,6 @@ h1 {
     justify-content: space-between;
 }
 
-.assoc-plan__blockA p {
-	width: 80%;
-}
-
 .assoc-plan__blockA p,
 .assoc-plan__blockB p {
 	font-size: 21px;
@@ -530,9 +526,17 @@ h1 {
 		min-height: 290px;
 	}
 
+	.assoc-plan__blockA p,
+	.assoc-plan__blockB p {
+		font-size: 20px;
+	}
+
 	.assoc-plan__blockA p {
 		width: 80%;
 	}
+
+
+	
 }
 
 /* section mc__about start*/
