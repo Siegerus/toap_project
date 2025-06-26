@@ -406,7 +406,7 @@ h1 {
 
 .assoc-plan__blockA p,
 .assoc-plan__blockB p {
-	font-size: 21px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -528,17 +528,9 @@ h1 {
 		min-height: 290px;
 	}
 
-	.assoc-plan__blockA p,
-	.assoc-plan__blockB p {
-		font-size: 20px;
-	}
-
 	.assoc-plan__blockA p {
 		width: 80%;
 	}
-
-
-	
 }
 
 /* section mc__about start*/
