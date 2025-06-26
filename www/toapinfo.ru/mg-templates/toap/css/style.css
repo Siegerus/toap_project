@@ -1340,7 +1340,8 @@ a.main-btn,
 	border: none;
 	border-radius: var(--border-radius);
 	color: #fff;
-	max-width: 220px;
+	min-width: 130px;
+    max-width: 300px;
 	font-weight: 500;
 	font-size: 18px;
 	letter-spacing: 1px;
