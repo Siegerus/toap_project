@@ -620,6 +620,12 @@ h1+.mc__about-project_cont {
 
 }
 
+@media (max-width: 650px) {
+	.mc__about-cont p {
+		font-size: 31px;
+	}
+}
+
 /* section mc__about end*/
 
 /* section mc__about-course start  */
@@ -1452,7 +1458,7 @@ a.main-btn,
 	.sect-title {
 		padding-top: 40px;
 		text-align: center;
-		font-size: 22px;
+		font-size: 31px;
 	}
 
 	.cards {
@@ -1509,7 +1515,7 @@ a.main-btn,
 	}
 
 	h1 {
-		font-size: 28px;
+		font-size: 31px;
 	}
 
 	h1.sect-title {
@@ -1648,4 +1654,3 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
-
