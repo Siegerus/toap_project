@@ -1336,7 +1336,7 @@ h1+.mc__about-project_cont {
 a.main-btn,
 .main-btn {
 	background-color: var(--main-btn-text-color);
-	padding: 16px 22px;
+	padding: 16px 26px;
 	border: none;
 	border-radius: var(--border-radius);
 	color: #fff;
