@@ -395,7 +395,8 @@ h1 {
 	max-width: 300px;
 	border-radius: 8px;
 	overflow: hidden;
-	background-color: #f5f5f5;
+	/* background-color: #f5f5f5; */
+	background-color: rgba(185, 99, 239, 0.3);
 	padding: 10px;
 	transition: background-color 0.4s;
 	display: flex;
@@ -415,7 +416,8 @@ h1 {
 
 .assoc-plan__blockA:hover,
 .assoc-plan__blockB:hover {
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
+	background-color: rgba(185, 99, 239, 1);
 	color: #fff;
 }
 
@@ -1654,5 +1656,4 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
-
 
