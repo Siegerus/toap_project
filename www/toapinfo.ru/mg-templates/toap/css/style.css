@@ -403,6 +403,16 @@ h1 {
     justify-content: space-between;
 }
 
+.assoc-plan__blockA p {
+	width: 80%;
+}
+
+.assoc-plan__blockA p,
+.assoc-plan__blockB p {
+	font-size: 21px;
+	font-weight: 500;
+}
+
 .blockB .assoc-plan__blockB {
 	min-height: 160px;
 }
@@ -419,10 +429,6 @@ h1 {
 	width: 100%;
 	min-height: 326px;
 	gap: 6px;
-}
-
-.assoc-plan__blockA p {
-	width: 80%;
 }
 
 .assoc-plan__blockB a,
@@ -522,6 +528,10 @@ h1 {
 	
 	.blockB .assoc-plan__blockB {
 		min-height: 290px;
+	}
+
+	.assoc-plan__blockA p {
+		width: 80%;
 	}
 }
 
@@ -1640,3 +1650,5 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
+
+
