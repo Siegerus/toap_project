@@ -458,6 +458,11 @@ h1 {
     align-self: flex-end;
 }
 
+.assoc-plan__blockB .foto {
+	max-height: 115px;
+	max-width: 60%;
+}
+
 .assoc-plan__blockA .foto img,
 .assoc-plan__blockB .foto img {
     max-width: 100%;
@@ -1302,9 +1307,7 @@ h1+.mc__about-project_cont {
 	max-width: 80%;
 }
 
-.assoc-plan__blockB .foto {
-	max-width: 60%;
-}
+
 
 .mc-t-p__cont-card span {
 	color: #797979;
@@ -1423,6 +1426,7 @@ a.main-btn,
 	}
 
 	.assoc-plan__blockB .foto {
+		max-height: unset;
 		max-width: 80%;
 	}
 
