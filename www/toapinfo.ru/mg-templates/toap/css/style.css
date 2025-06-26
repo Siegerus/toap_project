@@ -1479,9 +1479,9 @@ a.main-btn,
 		/*    color: #757575;*/
 	}
 
-	.l-body__static .sect-title {
+	/* .l-body__static .sect-title {
 		font-size: 18px;
-	}
+	} */
 
 	.mc__about-course p {
 		padding-top: 20px;
@@ -1518,10 +1518,10 @@ a.main-btn,
 		font-size: 31px;
 	}
 
-	h1.sect-title {
+	/* h1.sect-title {
 		font-size: 28px !important;
 		padding-bottom: 20px;
-	}
+	} */
 
 	.about-company .mc__our-team_cont {
 		padding-top: 0;
