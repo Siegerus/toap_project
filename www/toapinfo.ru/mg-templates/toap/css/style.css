@@ -1423,7 +1423,7 @@ a.main-btn,
 	#rules.activity .cards,
 	.l-body__catalog .menu-cats-main.mc__assoc-plan {
 		grid-template-columns: repeat(1, 1fr);
-		padding-top: 0;
+		/* padding-top: 0; */
 	}
 
 	.activity .cards {
