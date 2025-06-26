@@ -264,6 +264,7 @@ h1 {
 	font-weight: bold;
 	align-items: center;
 	gap: 5px;
+	font-size: 16px;
 }
 
 .header__cont-num svg {
