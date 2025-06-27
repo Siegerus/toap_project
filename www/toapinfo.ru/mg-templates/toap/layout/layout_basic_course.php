@@ -117,7 +117,7 @@ mgAddMeta('components/cart/btn/add/add.js');
             </div>
             <div class="mc-w-s-cont__card" style="min-height: 220px">
               <p>
-                Тем, кто хочет разобраться в анализе <br />
+                Тем, кто хочет разобраться в анализе
                 Юнга и аналитической психологии
               </p>
               <div class="mc-w-s-cont__image">
