@@ -704,8 +704,8 @@ h1+.mc__about-project_cont {
 
 .mc-t-p__cont-card h3 {
 	padding-top: 10px;
-	font-size: 20px;
-	margin-bottom: 13px;
+	font-size: 22px;
+	margin-bottom: 16px;
 	font-weight: 600;
 	font-family: 'SF Display' !important;
 }
@@ -818,17 +818,18 @@ h1+.mc__about-project_cont {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-color: #f5f5f5;
+	/* background-color: #f5f5f5; */
+	background-color: var(--primary-color-transparent);
 	border-radius: var(--border-radius);
 	overflow: hidden;
 	padding: 24px;
 	transition: background-color 0.3s;
 }
 
-.mc-t-p__cont-card:hover {
+/* .mc-t-p__cont-card:hover {
 	background-color: var(--primary-color);
 	color: #fff;
-}
+} */
 
 .mc-t-p__cont-card p {
 	flex-grow: 1;
@@ -934,6 +935,11 @@ h1+.mc__about-project_cont {
 
 #rules.activity .cards__card {
 	min-height: 240px;
+	background-color: var(--secondary-color-transparent);
+}
+
+#rules.activity .cards__card p {
+	font-size: 18px;
 }
 
 .activity .cards {
@@ -977,7 +983,7 @@ h1+.mc__about-project_cont {
 }
 
 .activity .cards__card p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 	color: inherit;
 	text-align: left;
@@ -1369,8 +1375,9 @@ h1+.mc__about-project_cont {
 }
 
 .mc-t-p__cont-card span {
+	align-self: flex-end;
 	color: #797979;
-	font-size: 13px;
+	font-size: 24px;
 }
 
 a.main-btn,
@@ -1580,6 +1587,8 @@ a.main-btn,
 
 .cards+p {
 	margin-top: 24px;
+	text-align: center;
+	background-color: var(--secondary-color-transparent);
 }
 
 .sect-title+.text-with-bg {
