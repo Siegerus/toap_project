@@ -1134,15 +1134,14 @@ h1+.mc__about-project_cont {
 }
 
 .mc-n-c__card {
-	/* background-color: #f5f5f5; */
-	background-color: var(--tertiary-color);
+	background-color: var(--primary-color);
 	padding: 20px;
 	border-radius: var(--border-radius);
 	min-height: 190px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	font-weight: bold;
+	font-weight: 500;
 	transition: background-color 0.4s ease;
 }
 
