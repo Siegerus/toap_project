@@ -111,18 +111,24 @@ mgAddMeta('components/cart/btn/add/add.js');
                 Начинающим психологам и <br />
                 психоаналитикам, врачам, cтудентам
               </p>
-              <img src="<?php echo SITE?>/uploads/ded1.png" alt="Курс для начинающих психологов" />
+              <div class="mc-w-s-cont__image">
+                <img src="<?php echo SITE?>/uploads/ded1.png" alt="Курс для начинающих психологов" />
+              </div>
             </div>
             <div class="mc-w-s-cont__card" style="min-height: 220px">
               <p>
                 Тем, кто хочет разобраться в анализе <br />
                 Юнга и аналитической психологии
               </p>
-              <img src="<?php echo SITE?>/uploads/user-2.png" alt="Курс для анализа Юнга и аналитической психологии" />
+              <div class="mc-w-s-cont__image">
+                <img src="<?php echo SITE?>/uploads/user-2.png" alt="Курс для анализа Юнга и аналитической психологии" />
+              </div>
             </div>
             <div class="mc-w-s-cont__card" style="min-height: 290px">
               <p>Опытным психологам</p>
-              <img src="<?php echo SITE?>/uploads/user-3.png" alt="Курс для опытных психологов" />
+              <div class="mc-w-s-cont__image">
+                <img src="<?php echo SITE?>/uploads/user-3.png" alt="Курс для опытных психологов" />
+              </div>
             </div>
           </div>
         </section>
