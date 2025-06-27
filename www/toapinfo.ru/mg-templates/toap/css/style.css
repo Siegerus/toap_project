@@ -698,14 +698,31 @@ h1+.mc__about-project_cont {
 }
 
 .mc-t-p__cont-card li {
+	position: relative;
 	line-height: 1.2;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
+}
+
+.mc-t-p__cont-card li::before {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: -30px;
+    width: 19px;
+    height: 19px;
+	background: url("https://toapinfo.ru/uploads/icons/icon-circle-9612489-from-edt.im.png") center/cover no-repeat;
+}
+
+.mc-t-p__cont-card ul {
+	padding-left: 14px;
+	list-style-type: none;
 }
 
 .mc-t-p__cont-card h3 {
 	padding-top: 10px;
-	font-size: 22px;
-	margin-bottom: 16px;
+	padding-left: 14px;
+	font-size: 21px;
+	margin-bottom: 13px;
 	font-weight: 600;
 	font-family: 'SF Display' !important;
 }
