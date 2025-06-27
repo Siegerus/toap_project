@@ -255,7 +255,8 @@ h1 {
 }
 
 .header__cont-nav ul li.active {
-	background-color: #f5f5f5;
+	background-color: var(--tertiary-color);
+	/* background-color: #f5f5f5; */
 }
 
 .header__cont-num {
@@ -883,7 +884,8 @@ h1+.mc__about-project_cont {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: #f5f5f5;
+	/* background-color: #f5f5f5; */
+	background-color: var(--tertiary-color);
 	border-radius: var(--border-radius);
 	overflow: hidden;
 	padding: 20px;
@@ -1104,7 +1106,8 @@ h1+.mc__about-project_cont {
 }
 
 .mc-n-c__card {
-	background-color: #f5f5f5;
+	/* background-color: #f5f5f5; */
+	background-color: var(--tertiary-color);
 	padding: 20px;
 	border-radius: var(--border-radius);
 	min-height: 190px;
@@ -1158,7 +1161,8 @@ h1+.mc__about-project_cont {
 	position: relative;
 	border-radius: 8px;
 	/* overflow: hidden; */
-	background-color: #f5f5f5;
+	background-color: var(--tertiary-color);
+	/* background-color: #f5f5f5; */
 	padding: 24px 0 0 24px;
 }
 
@@ -1295,7 +1299,8 @@ h1+.mc__about-project_cont {
 	border-radius: 8px;
 	margin-right: 20px;
 	padding: 0 20px 20px;
-	background-color: #f5f5f5;
+	background-color: var(--tertiary-color);
+	/* background-color: #f5f5f5; */
 }
 
 .fs1 h1 {
@@ -1599,7 +1604,8 @@ a.main-btn,
 	border-radius: 8px;
 
 	padding: 20px !important;
-	background-color: #f5f5f5;
+	background-color: var(--tertiary-color);
+	/* background-color: #f5f5f5; */
 }
 
 .cards+p {
