@@ -2,8 +2,11 @@
     --main-bc-collor: #fff;
     /* --primary-color: #b963ef; */
     --primary-color: rgba(185, 99, 239, 1);
+    --primary-color-transparent: rgba(185, 99, 239, 0.3);
     --primary-colorBG: #4a00789c;
     --primary-color-activ: #9e46d4;
+    --secondary-color: rgba(30, 80, 30, 0.5);
+	--secondary-color-transparent: rgb(156, 189, 156, 0.3);
     --main-font-text: "SF Display", sans-serif;
     --main-font-title: "SF Display", sans-serif;
     --block-indent: 64px;

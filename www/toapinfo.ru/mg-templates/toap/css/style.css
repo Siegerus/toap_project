@@ -397,7 +397,7 @@ h1 {
 	border-radius: 8px;
 	overflow: hidden;
 	/* background-color: #f5f5f5; */
-	background-color: rgba(185, 99, 239, 0.3);
+	background-color: var(--primary-color-transparent);
 	padding: 10px;
 	transition: background-color 0.4s;
 	display: flex;
@@ -407,8 +407,7 @@ h1 {
 
 .assoc-plan__blockA p,
 .assoc-plan__blockB p {
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 21px;
 }
 
 .blockB .assoc-plan__blockB {
@@ -417,8 +416,8 @@ h1 {
 
 .assoc-plan__blockA:hover,
 .assoc-plan__blockB:hover {
-	/* background-color: var(--primary-color); */
-	background-color: rgba(185, 99, 239, 1);
+	background-color: var(--primary-color);
+	/* background-color: rgba(185, 99, 239, 1); */
 	color: #fff;
 }
 
