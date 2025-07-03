@@ -133,7 +133,6 @@ mgAddMeta('components/cart/btn/add/add.js');
           </div>
         </section>
          <section class="mc__Latest-announc activity " id="rules">
-         <div class="test-div">test</div>
           <h2>Условия</h2>
           <div class="cards">
             <div class="cards__card">
