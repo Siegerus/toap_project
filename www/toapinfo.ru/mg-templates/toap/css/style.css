@@ -1128,7 +1128,7 @@ h1+.mc__about-project_cont {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	transition: background-color 0.4s ease;
 }
