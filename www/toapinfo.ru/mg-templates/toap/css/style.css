@@ -1217,16 +1217,12 @@ h1+.mc__about-project_cont {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .mc__our-team_cont-card span {
 	margin-top: 23px;
 	display: inline-block;
-}
-
-.mc__our-team_cont-card img {
-	width: 30%;
 }
 
 .mc__our-team_cont-card {
@@ -1235,7 +1231,7 @@ h1+.mc__about-project_cont {
 }
 
 .mc__our-team_cont-card img {
-	width: 50%;
+	width: 65%;
 	align-self: flex-end;
 	display: block;
     margin-top: 12px;
@@ -1244,6 +1240,29 @@ h1+.mc__about-project_cont {
 @media (max-width: 760px) {
 	.mc__our-team_cont {
 		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 550px) {
+	.mc__our-team_cont-card {
+		flex-direction: column;
+	}
+
+	.mc__our-team_cont-card:not(:last-child) span {
+		max-width: 100%;
+	}
+
+	.mc__our-team_cont-card img {
+		width: 70%;
+		margin-top: 10px;
+	}
+
+	.mc__our-team_cont-card:not(:last-child) span {
+		margin-top: -23px;
+	}
+
+	.mc__our-team_cont-card {
+		min-height: 300px;
 	}
 }
 
