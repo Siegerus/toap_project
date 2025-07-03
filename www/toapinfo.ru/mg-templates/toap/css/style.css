@@ -357,7 +357,7 @@ h1 {
 @media (max-width: 760px) {
 	.mc__title {
 		font-size: 25px;
-	}
+	} 
 }
 
 @media (max-width: 400px) {
@@ -409,7 +409,7 @@ h1 {
 .assoc-plan__blockA p,
 .assoc-plan__blockB p {
 	font-size: 18px;
-} 
+}
 
 .blockB .assoc-plan__blockB {
 	min-height: 160px;
@@ -1186,7 +1186,8 @@ h1+.mc__about-project_cont {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding-bottom: var(--block-indent);
-	row-gap: 30px;
+	gap: 30px;
+
 }
 
 .mc__our-team_cont-card {
@@ -1762,3 +1763,4 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
+
