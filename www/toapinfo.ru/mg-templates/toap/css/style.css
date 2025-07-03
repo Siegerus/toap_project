@@ -999,7 +999,7 @@ h1+.mc__about-project_cont {
 .activity-gain b {
 	font-weight: 500;
 }
-
+ 
 .activity-gain {
 	font-size: 24px;
 	text-align: center;
@@ -1008,7 +1008,7 @@ h1+.mc__about-project_cont {
 	margin: auto;
 	font-weight: 300;
 	margin-top: 64px;
-	padding-bottom: 32px;
+	padding-bottom: 32px;  
 }
 
 .activity .cards__card img {
@@ -1165,10 +1165,6 @@ h1+.mc__about-project_cont {
 @media (max-width: 900px) {
 	.mc__news-cont {
 		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.mc-n-c__card  {
-		font-size: 21px;
 	}
 }
 
