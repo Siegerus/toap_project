@@ -1186,7 +1186,7 @@ h1+.mc__about-project_cont {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding-bottom: var(--block-indent);
-	gap: 30px;
+	gap: 20px;
 
 }
 
@@ -1197,8 +1197,7 @@ h1+.mc__about-project_cont {
 	border-radius: 8px;
 	/* overflow: hidden; */
 	background-color: var(--tertiary-color);
-	/* background-color: #f5f5f5; */
-	padding: 24px 0 0 24px;
+	padding: 24px;
 }
 
 .activity-gain img {
@@ -1763,4 +1762,3 @@ a.main-btn,
 /* test-section end*/
 
 /* test-study start */
-
