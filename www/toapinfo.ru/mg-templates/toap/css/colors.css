@@ -7,8 +7,8 @@
     --primary-color-activ: #9e46d4;
     --secondary-color: rgba(30, 80, 30, 0.5);
 	--secondary-color-transparent: rgb(156, 189, 156, 0.4);
-    /* --tertiary-color: #f5f5f5; */
-    --tertiary-color: rgba(0, 0, 0, 0.06);
+    --tertiary-color: #f5f5f5;
+    /* --tertiary-color: rgba(0, 0, 0, 0.06); */
     --main-font-text: "SF Display", sans-serif;
     --main-font-title: "SF Display", sans-serif;
     --block-indent: 64px;
