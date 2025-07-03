@@ -408,8 +408,8 @@ h1 {
 
 .assoc-plan__blockA p,
 .assoc-plan__blockB p {
-	font-size: 21px;
-}
+	font-size: 18px;
+} 
 
 .blockB .assoc-plan__blockB {
 	min-height: 160px;
