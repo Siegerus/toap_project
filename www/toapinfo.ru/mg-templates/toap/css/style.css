@@ -971,6 +971,57 @@ h1+.mc__about-project_cont {
 	justify-items: center;
 }
 
+.cards__icon {
+	position: relative;
+	margin-bottom: 13px;
+	width: 75px;
+	height: 75px;
+}
+
+.cards__card:nth-child(1) > .cards__icon::before  {
+	content: "";
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-4.png") center / cover;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+    height: 65px;
+}
+
+.cards__card:nth-child(2) > .cards__icon::before  {
+	content: "";
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-1.png") center / cover;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85px;
+    height: 78px;
+}
+
+.cards__card:nth-child(3) > .cards__icon::before  {
+	content: "";
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-2.png") center / cover;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85px;
+    height: 78px;
+}
+
+.cards__card:nth-child(4) > .cards__icon::before  {
+	content: "";
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-3.png") center / cover;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 109px;
+    height: 76px;
+}
+
 #rules.activity .cards {
 	grid-template-columns: repeat(3, 1fr);
 }
