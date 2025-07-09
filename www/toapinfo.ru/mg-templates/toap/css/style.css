@@ -986,7 +986,7 @@ h1+.mc__about-project_cont {
 	left: 50%;
 	transform: translateX(-50%);
 	width: 45px;
-    height: 65px;
+    height: 71px;
 }
 
 .cards__card:nth-child(2) > .cards__icon::before  {
@@ -1032,7 +1032,7 @@ h1+.mc__about-project_cont {
 }
 
 #rules.activity .cards__card p {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .activity .cards {
