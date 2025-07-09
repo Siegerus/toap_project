@@ -980,7 +980,7 @@ h1+.mc__about-project_cont {
 
 .cards__card:nth-child(1) > .cards__icon::before  {
 	content: "";
-	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-4.png") center / cover;
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-4+effect.png") center / cover;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -991,7 +991,7 @@ h1+.mc__about-project_cont {
 
 .cards__card:nth-child(2) > .cards__icon::before  {
 	content: "";
-	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-1.png") center / cover;
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-1+effect.png") center / cover;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -1002,7 +1002,7 @@ h1+.mc__about-project_cont {
 
 .cards__card:nth-child(3) > .cards__icon::before  {
 	content: "";
-	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-2.png") center / cover;
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-2+effect.png") center / cover;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -1013,7 +1013,7 @@ h1+.mc__about-project_cont {
 
 .cards__card:nth-child(4) > .cards__icon::before  {
 	content: "";
-	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-3.png") center / cover;
+	background: url("https://toapinfo.ru/uploads/icons/A_modernist_flat-style_illustr-fotor-bg-remover-3+effect.png") center / cover;
 	position: absolute;
 	top: 0;
 	left: 50%;
